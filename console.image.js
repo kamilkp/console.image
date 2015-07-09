@@ -173,4 +173,11 @@
 	memes['WAT'] = 'http://i.imgur.com/o3bwW2v.jpg';
 	memes['65 WAT'] = 'http://i.imgur.com/8mK6GsV.png';
 	console.meme.memes = memes;
+
+	console.wat = function(upper, width, height) {
+		upper = upper || '';
+		width = width || 250;
+		height = height || 300;
+		return console.meme(upper, '', 'WAT', width, height);
+	};
 })(console);
