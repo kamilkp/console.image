@@ -169,4 +169,8 @@
 
 		img.src = url;
 	};
+
+	memes['WAT'] = 'http://i.imgur.com/o3bwW2v.jpg';
+	memes['65 WAT'] = 'http://i.imgur.com/8mK6GsV.png';
+	console.meme.memes = memes;
 })(console);
